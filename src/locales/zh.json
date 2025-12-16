@@ -1,5 +1,16 @@
 {
+<<<<<<< HEAD
+  "title": "AI评论",
+  "countLabel": "计数为 {{count}}",
+  "successMessage": "成功！",
+  "aiCommentMenu": "AI评论",
+  "aiCommentProcessing": "正在生成AI评论...",
+  "aiCommentSuccess": "AI评论添加成功！",
+  "aiCommentError": "添加AI评论失败。",
+  "pluginDescription": "从右键菜单为单个闪念添加AI评论。此插件利用Blinko的AI功能，根据闪念内容生成智能评论。"
+=======
   "title": "我的插件",
   "countLabel": "计数为 {{count}}",
   "successMessage": "成功！"
+>>>>>>> 191cee5e18a996e1fed899cc890478485b5475ff
 } 

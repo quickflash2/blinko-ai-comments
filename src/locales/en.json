@@ -1,5 +1,16 @@
 {
+<<<<<<< HEAD
+  "title": "AI Comment",
+  "countLabel": "Count is {{count}}",
+  "successMessage": "Success!",
+  "aiCommentMenu": "AI Comment",
+  "aiCommentProcessing": "Processing AI comment...",
+  "aiCommentSuccess": "AI comment added successfully!",
+  "aiCommentError": "Failed to add AI comment.",
+  "pluginDescription": "Add AI comments to individual notes from right-click menu. This plugin utilizes Blinko's AI capabilities to generate intelligent comments based on note content."
+=======
   "title": "My Plugin",
   "countLabel": "Count is {{count}}",
   "successMessage": "Success!"
+>>>>>>> 191cee5e18a996e1fed899cc890478485b5475ff
 } 

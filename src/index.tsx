@@ -56,6 +56,37 @@ System.register([], (exports) => ({
           }
         });
 
+<<<<<<< HEAD
+        // Add AI Comment right-click menu item
+        window.Blinko.addRightClickMenu({
+          name: 'ai-comment',
+          label: window.Blinko.i18n.t('aiCommentMenu'),
+          icon: 'material-symbols:comment',  
+          onClick: async (note) => {
+            try {
+              const { toast, api, i18n } = window.Blinko;
+              // Save toastId when showing loading
+              const toastId = toast.loading(i18n.t('aiCommentProcessing'));
+              
+              // Call the AI Comment API
+              await api.ai.AIComment.mutate({
+                content: note.content,
+                noteId: note.id
+              });
+              
+              // Dismiss loading toast before showing success
+              toast.dismiss(toastId);
+              toast.success(i18n.t('aiCommentSuccess'));
+              
+              // Refresh the UI to show the new comment
+              window.Blinko.globalRefresh();
+            } catch (error) {
+              console.error('Error adding AI comment:', error);
+              // Dismiss loading toast before showing error
+              window.Blinko.toast.dismiss();
+              window.Blinko.toast.error(window.Blinko.i18n.t('aiCommentError'));
+            }
+=======
         // Add custom right-click menu item
         window.Blinko.addRightClickMenu({
           name: 'custom-action',
@@ -63,6 +94,7 @@ System.register([], (exports) => ({
           icon: 'tabler:accessible',  
           onClick: (item) => {
             console.log('Custom action triggered', item)
+>>>>>>> 191cee5e18a996e1fed899cc890478485b5475ff
           }
         });
 
