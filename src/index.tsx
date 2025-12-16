@@ -56,7 +56,6 @@ System.register([], (exports) => ({
           }
         });
 
-<<<<<<< HEAD
         // Add AI Comment right-click menu item
         window.Blinko.addRightClickMenu({
           name: 'ai-comment',
@@ -86,15 +85,6 @@ System.register([], (exports) => ({
               window.Blinko.toast.dismiss();
               window.Blinko.toast.error(window.Blinko.i18n.t('aiCommentError'));
             }
-=======
-        // Add custom right-click menu item
-        window.Blinko.addRightClickMenu({
-          name: 'custom-action',
-          label: 'Custom Action',
-          icon: 'tabler:accessible',  
-          onClick: (item) => {
-            console.log('Custom action triggered', item)
->>>>>>> 191cee5e18a996e1fed899cc890478485b5475ff
           }
         });
 

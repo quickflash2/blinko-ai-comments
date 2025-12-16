@@ -8,15 +8,14 @@
     "@vitejs/plugin-react": "^4.3.4",
     "blinko": "^0.0.14",
     "blinko-cli": "^0.0.4",
-<<<<<<< HEAD
     "typescript": "^5.0.0",
     "vite": "^4.5.14",
     "vite-plugin-blinko": "^1.0.1"
-=======
+
     "vite-plugin-blinko": "^1.0.1",
     "typescript": "^5.0.0",
     "vite": "^4.0.0"
->>>>>>> 191cee5e18a996e1fed899cc890478485b5475ff
+
   },
   "description": "a blinko plugin",
   "scripts": {
@@ -33,8 +32,8 @@
     "systemjs": "^6.15.1",
     "ws": "^8.16.0"
   }
-<<<<<<< HEAD
+
 }
-=======
+
 }
->>>>>>> 191cee5e18a996e1fed899cc890478485b5475ff
+
